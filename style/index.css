@@ -50,6 +50,12 @@ body {
     
 }
 
+.languages, .skills {
+    padding: 20px 20px 20px 12%; 
+    text-align: left; 
+}
+
+
 
 .iconwhatsapp,
 .iconlinkedin,
