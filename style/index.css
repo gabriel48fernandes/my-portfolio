@@ -11,6 +11,11 @@ body {
     color: #333;
     line-height: 1.6;
 }
+.meu-favicon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
 
 .main-container {
     display: flex;
@@ -154,13 +159,17 @@ body {
 }
 
 /* Metade direita */
-/* container da direita já existe; mantém seu estilo base */
 .right {
   width: 65%;
   padding: 50px;
   background-color: white;
 }
-
+.powerbi-context {
+    margin-bottom: 12px;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.5;
+}
 /* títulos das seções */
 .section-title {
   color: #093079;
@@ -230,16 +239,14 @@ body {
   text-align: center;
 }
 
-
-
 .button {
-  background: rgb(91, 91, 235);
-  color: white;
+  background: rgb(54, 54, 117);
+  color: rgb(245, 243, 243);
   border-radius: 8px;
   padding: 10px 20px;
   cursor: pointer;
 }
 .button:hover {
-  background: darkblue;
+  background: rgb(82, 82, 163);
 }
 
