@@ -246,6 +246,7 @@ body {
   border-radius: 8px;
   padding: 10px 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 .button:hover {
   background: rgb(82, 82, 163);
